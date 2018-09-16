@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 forearm = Double.parseDouble(ForearmIn.getText().toString());
                 hip = Double.parseDouble(HipIn.getText().toString());
 
-                Intent intent = new Intent(MainActivity.this, BMI.class);
+                Intent intent3 = new Intent(MainActivity.this, BMI.class);
                 Bundle extras= new Bundle();
                 extras.putString("gender", gender);
                 extras.putInt("height", height);
@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
                 extras.putDouble("forearm", forearm);
                 extras.putDouble("hip", hip);
 
-            intent.putExtras(extras);
-                startActivity(intent);
+            intent3.putExtras(extras);
+                startActivity(intent3);
             }
 
 

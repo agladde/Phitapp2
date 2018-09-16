@@ -59,10 +59,12 @@
 
     <Button
         android:id="@+id/button1"
+        style="@android:style/Widget.Material.Light.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="14dp"
-        android:text="Exercises -->" />
+        android:text="Exercises"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 </RelativeLayout>
